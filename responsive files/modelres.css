@@ -1,0 +1,808 @@
+@media screen and (max-width:1402px) {
+    .navleft ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navleft ul li {
+        list-style: none;
+        font-size: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .container {
+        width: 100%;
+        height: 62vh;
+    }
+
+    .hfont {
+        font-size: 66px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 62vh;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 62vh;
+    }
+
+    .container3 .text3 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 19px;
+        font-size: 14px;
+
+    }
+
+    .imgbox1 img {
+        width: 100%;
+        height: 65%;
+    }
+
+    .container4 .section1 .text4 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 22px;
+    }
+
+    .container4 .section1 .imgbox1 {
+        width: 30%;
+        height: 34vh;
+    }
+
+    .container4 .section1 .text4 {
+        width: 50%;
+        height: 76%;
+    }
+
+    .container4 .section1 .text4 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 0px;
+        line-height: 19px;
+    }
+
+    .container4 .section1 {
+        width: 100%;
+        height: 36vh;
+    }
+
+    .container4 .section2 {
+        width: 100%;
+        height: 48vh;
+    }
+
+    .container4 .section2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container4 .section3 img {
+        width: 90%;
+        height: 49%;
+    }
+
+    .container4 .section3 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 24px;
+    }
+
+    .container4 .section3 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 24px;
+        font-size: 14px;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 151vh;
+    }
+
+    .container5 .sec2 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 78vh;
+    }
+
+    .container6 {
+        width: 100%;
+        height: 59vh;
+    }
+
+    .container6 .text h2 {
+        font-size: 24px;
+    }
+
+    .container6 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 22px;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 62vh;
+    }
+
+    .container8 .text h1 {
+        font-size: 44px;
+    }
+
+    .container8 img {
+        width: 100%;
+    }
+
+    .container8 {
+        width: 100%;
+        height: 33vh;
+    }
+
+    .container9 {
+        width: 100%;
+        height: 61vh;
+    }
+
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .navleft {
+        width: 50%;
+        height: 80px;
+    }
+
+    .navleft .logo img {
+        width: 51px;
+        padding: 0px 0px 0 42px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 80px;
+    }
+
+    .SidebarIconToggle {
+        top: 31px;
+        right: 36px;
+    }
+
+    .navright .search img {
+        padding: 0 96px 0 0;
+    }
+
+    .siderbarMenu {
+        margin-top: 80px;
+    }
+
+    .container {
+        width: 100%;
+        height: 64vh;
+    }
+
+    .hfont {
+        font-size: 65px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 64vh;
+    }
+
+    .text2 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 64vh;
+    }
+
+    .container3 .text3 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 24px;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 158vh;
+    }
+
+    .container4 .section1 .imgbox1 img {
+        width: 100%;
+        height: 96%;
+    }
+
+    .container4 .section3 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 19px;
+    }
+
+    .container5 .sec2 {
+        width: 100%;
+        height: 48vh;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 90vh;
+    }
+
+    .container6 {
+        width: 100%;
+        height: 66vh;
+    }
+
+    .container6 .text h2 {
+        font-size: 18px;
+    }
+
+    .container6 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 23px;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .container7 .text {
+        margin: 27px 0 0 27px;
+    }
+
+    .container8 {
+        width: 100%;
+        height: 30vh;
+    }
+
+    .container8 .text h1 {
+        font-size: 47px;
+    }
+
+    .container9 {
+        width: 100%;
+        height: 64vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 88vh;
+    }
+
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+    .navleft {
+        width: 50%;
+        height: 70px;
+    }
+
+    .navleft .logo img {
+        width: 49px;
+        padding: 0px 0px 0 35px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 70px;
+    }
+
+    .SidebarIconToggle {
+        top: 27px;
+        right: 32px;
+    }
+
+    .navright .search img {
+        padding: 0 88px 0 0;
+    }
+
+    .siderbarMenu {
+        margin-top: 70px;
+    }
+
+    .container {
+        width: 100%;
+        height: 65vh;
+    }
+
+    #display {
+        font-size: 25px;
+    }
+
+    .hfont {
+        font-size: 57px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 64vh;
+    }
+
+    .container2 .text2 h2 {
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        padding: 1px 0;
+    }
+
+    .container2 .text2 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 22px;
+        line-height: 24px;
+    }
+
+    .text2 img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 84vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container3 .text3 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4 .section1 {
+        width: 100%;
+        height: 62vh;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container4 .section1 .text4 {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+        align-items: center;
+        margin: 6px;
+    }
+
+    .container4 .section1 .text4 h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 40px;
+        line-height: 30px;
+        font-size: 14px;
+    }
+
+    .container4 .section1 .imgbox1 {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .container4 .section1 {
+        width: 100%;
+        height: 86vh;
+    }
+
+    .container4 .section2 {
+        width: 100%;
+        height: 36vh;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 20px;
+    }
+
+    .container4 .section3 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container4 .section3 img {
+        width: 90%;
+        height: 89%;
+        margin: 16px 0 0 17px;
+    }
+
+    .container4 .section3 {
+        width: 100%;
+        height: 94vh;
+    }
+
+    .container4 .section3 .text {
+        margin: 0px 0 0 0px;
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container4 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: 197vh;
+    }
+
+    .container5 .sec1 {
+        display: flex;
+        margin: 0 37px;
+    }
+
+    .container5 .sec1 .text2 {
+        margin-left: 60px;
+    }
+
+    .container5 .sec2 {
+        width: 100%;
+        height: 36vh;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 82vh;
+    }
+
+    .container6 {
+        width: 100%;
+        height: 87vh;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container6 img {
+        width: 100%;
+    }
+
+    .container6 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 75vh;
+        background-color: #F1F1F1;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container7 img {
+        width: 76%;
+        height: 100%;
+    }
+
+    .container7 .text {
+        margin: 0px 0 0 66px;
+    }
+
+    .container8 .text h1 {
+        font-size: 33px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-left: 20px;
+    }
+
+    .container8 img {
+        width: 100%;
+    }
+
+    .container8 {
+        width: 100%;
+        height: 24vh;
+    }
+
+    .container9 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 111vh;
+    }
+
+    .subfooter2 h5 {
+        padding: 31px 0 0 60px;
+        line-height: 30px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 14px;
+        margin-right: 25px;
+    }
+}
+
+@media screen and (max-width:576px) and (min-width:0px) {
+    .navleft {
+        width: 50%;
+        height: 60px;
+    }
+
+    .navleft .logo img {
+        width: 43px;
+        padding: 0px 0px 0 29px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 60px;
+    }
+
+    .SidebarIconToggle {
+        top: 20px;
+        right: 26px;
+    }
+
+    .navright .search img {
+        width: 28px;
+        cursor: pointer;
+        padding: 0 81px 0 0;
+    }
+
+    .siderbarMenu {
+        margin-top: 60px;
+    }
+
+    #display {
+        font-size: 26px;
+    }
+
+    .hfont {
+        font-size: 59px;
+    }
+
+    .container {
+        width: 100%;
+        height: 66vh;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 74vh;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container2 img {
+        width: 100%;
+        height: 20%;
+    }
+
+    .container2 .text2 h4 {
+        font-size: 14px;
+    }
+
+    .container2 .text2 {
+        width: 100%;
+        margin: 25px;
+    }
+
+    .container2 .text2 img {
+        width: 23%;
+    }
+
+
+    .container3 {
+        width: 100%;
+        height: 87vh;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container3 .text3 {
+        width: 100%;
+        height: 30%;
+
+    }
+
+    .container3 img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 83vh;
+    }
+
+    .container3 .text3 {
+        width: 100%;
+        height: 50%;
+    }
+
+    .container2 img {
+        width: 104%;
+        height: 100%;
+    }
+
+    .container4 .section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container4{
+        height: 203vh;
+    }
+
+    .container4 .section1 .text4 {
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+      }
+
+      .container4 .section1 .imgbox1 {
+        width: 100%;
+      }
+
+      .container4 .section1 {
+        width: 100%;
+        height: 99vh;
+      }
+
+      .container4 .section2 {
+        width: 100%;
+        height: 24vh;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        margin-top: 15px;
+      }
+
+      .container4 .section3 {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .container4 .section3 .text {
+        margin: 20px;
+      }
+
+      .container5 .sec1 {
+        display: flex;
+        margin-left: 15px;
+        flex-direction: column;
+      }
+
+      .container5 .sec1 .text2 {
+        margin-left: 0px;
+      }
+
+      .container5 .sec2 {
+        width: 100%;
+        height: 25vh;
+      }
+
+      .container5 {
+        width: 100%;
+        height: 102vh;
+      }
+
+      .container6 {
+        width: 100%;
+        height: 87vh;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+      }
+
+      .container6 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 15px;
+      }
+
+      .container6 img {
+        width: 100%;
+      }
+
+      .container7 {
+        width: 100%;
+        height: 75vh;
+        background-color: #F1F1F1;
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .container7 img {
+        width: 87%;
+      }
+
+      .container7 .text {
+        margin: 30px;
+      }
+
+      .container8 .text h1 {
+        font-size: 24px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+        margin-left: 15px;
+      }
+
+      .container8 {
+        width: 100%;
+        height: 21vh;
+      }
+
+      .container9 {
+        width: 100%;
+        height: 33vh;
+      }
+
+      .textf {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      .textf h4 {
+        padding: 30px;
+      }
+
+      .fimg {
+        display: flex;
+        padding: 0 0 0 30px;
+      }
+
+      footer {
+        width: 100%;
+        height: 127vh;
+      }
+
+      .subfooter2 h5 {
+        padding: 30px;
+      }
+
+
+
+
+}

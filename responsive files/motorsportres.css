@@ -1,0 +1,709 @@
+@media screen and (max-width:1402px) {
+    .navleft ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navleft ul li {
+        list-style: none;
+        font-size: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .hfont {
+        font-size: 51px;
+    }
+
+    .container2 {
+        margin-top: 50px;
+        height: 268vh;
+    }
+
+    .container2 .subcontainer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container2 .card {
+        width: 80%;
+        height: 80vh;
+        margin-bottom: 31px;
+    }
+
+    .container2 .card img {
+        width: 100%;
+        height: 66%;
+    }
+
+    .subcontainer2 .card .text {
+        width: 100%;
+    }
+
+    .container3 .text h2 {
+        font-size: 25px;
+    }
+
+    .container3 .text h4 {
+        line-height: 20px;
+    }
+
+    .container4 .text h4 {
+        line-height: 21px;
+    }
+
+    footer {
+        width: 100%;
+        height: 82vh;
+    }
+
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .navleft {
+        width: 50%;
+        height: 80px;
+    }
+
+    .navleft .logo img {
+        width: 51px;
+        padding: 0px 0px 0 42px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 80px;
+    }
+
+    .SidebarIconToggle {
+        top: 31px;
+        right: 36px;
+    }
+
+    .navright .search img {
+        padding: 0 96px 0 0;
+    }
+
+    .siderbarMenu {
+        margin-top: 80px;
+    }
+
+    .hfont {
+        font-size: 46px;
+    }
+
+    .container2 {
+        margin-top: 50px;
+        height: 275vh;
+    }
+
+    .container9 .text {
+        padding-left: 56px;
+    }
+
+    .container2 .subcontainer2 {
+        flex-direction: column;
+    }
+
+    .container2 .card {
+        width: 100%;
+        height: 87vh;
+    }
+
+    .container2 .card .text {
+        width: 100%;
+    }
+
+    .container2 .card img {
+        height: 57%;
+    }
+
+    .container3 .text h2 {
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+        padding: 5px 0;
+    }
+
+    .container3 .text h4 {
+        font-family: 'Open sans', sans-serif;
+        padding-bottom: 28px;
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .container4 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 153vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .container4 img {
+        width: 100%;
+    }
+
+    .container5 {
+        height: 111vh;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .container5 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container5 img {
+        width: 100%;
+        height: 102%;
+    }
+
+    .container5 {
+        height: 210vh;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 50px;
+    }
+
+    .container7 .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .container7 img {
+        width: 70%;
+    }
+
+    .container8 .text {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container8 {
+        width: 100%;
+        height: 109vh;
+    }
+
+    .container10 .logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos img {
+        margin: 25px;
+        width: 300px;
+    }
+
+    .container10 .logos2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos2 img {
+        margin: 25px;
+        width: 200px;
+    }
+
+    .container10 {
+        width: 100%;
+        height: 180vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 91vh;
+    }
+
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+    .navleft {
+        width: 50%;
+        height: 70px;
+    }
+
+    .navleft .logo img {
+        width: 49px;
+        padding: 0px 0px 0 35px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 70px;
+    }
+
+    .SidebarIconToggle {
+        top: 27px;
+        right: 32px;
+    }
+
+    .navright .search img {
+        padding: 0 88px 0 0;
+    }
+
+    .siderbarMenu {
+        margin-top: 70px;
+    }
+
+    .hfont {
+        font-size: 49px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 90vh;
+        margin-top: 50px;
+    }
+
+    .container2 .subcontainer2 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .card {
+        width: 100%;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .container2 .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .container2 .card .text {
+        width: 100%;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 236vh;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 138vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 115vh;
+        display: flex;
+        margin-top: 30px;
+        position: relative;
+        flex-direction: column;
+    }
+
+    .container4 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+        align-items: center;
+    }
+
+    .container4 img {
+        width: 70%;
+        height: 59%;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 145vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .container5 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container5 img {
+        width: 62%;
+    }
+
+    .container6 {
+        width: 100%;
+        height: 67vh;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 102vh;
+        flex-direction: column;
+    }
+
+    .container7 img {
+        width: 83%;
+    }
+
+    .container7 .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+
+    }
+
+    .container7 {
+        width: 100%;
+        height: 78vh;
+    }
+
+    .container8 .text {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container8 img {
+        width: 100%;
+        height: 45%;
+    }
+
+    .container8 {
+        height: 107vh;
+    }
+
+    .container9 {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .container9 .text {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container10 {
+        width: 100%;
+        height: 155vh;
+    }
+
+    .container10 .logos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos img{
+        width: 250px;
+        margin: 25px;
+    }
+    
+    .container10 .logos2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos2 img{
+        width: 150px;
+        margin: 25px;
+    }
+
+    footer {
+        width: 100%;
+        height: 128vh;
+    }
+
+}
+
+@media screen and (max-width:576px) and (min-width:0px) {
+    .navleft {
+        width: 50%;
+        height: 60px;
+    }
+
+    .navleft .logo img {
+        width: 43px;
+        padding: 0px 0px 0 29px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 60px;
+    }
+
+    .SidebarIconToggle {
+        top: 20px;
+        right: 26px;
+    }
+
+    .navright .search img {
+        width: 28px;
+        cursor: pointer;
+        padding: 0 81px 0 0;
+    }
+
+    .siderbarMenu{
+        margin-top: 60px;
+    }
+
+    .hfont {
+        font-size: 39px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .container2 .subcontainer2 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container2 .card {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 227vh;
+    }
+
+    .container2 .card .text h2 {
+        font-size: 21px;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 187vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .container3 .text {
+        width: 100%;
+        height: 36%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container3 img {
+        width: 100%;
+        height: 33%;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 108vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .container4 .text {
+        width: 100%;
+        height: 62%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container4 img {
+        width: 100%;
+    }
+
+    .container5 {
+        width: 100%;
+        height: 173vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 70px;
+        position: relative;
+    }
+
+    .container5 .text {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+
+    .container5 img {
+        width: 100%;
+    }
+
+    .container7 {
+        width: 100%;
+        height: 106vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 20px;
+    }
+
+    .container7 .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+
+    .container7 img {
+        width: 100%;
+    }
+
+    .container8 .text {
+        padding-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container8 img {
+        width: 100%;
+        height: 29%;
+    }
+
+    .container9 {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+
+    }
+
+    .container9 .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0px;
+    }
+
+    .container9 img {
+        width: 100%;
+    }
+
+    .container10 {
+        width: 100%;
+        height: 141vh;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .container10 .logos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos img{
+        width: 200px;
+        margin: 20px;
+    }
+    
+    .container10 .logos2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container10 .logos2 img{
+        width: 100px;
+        margin: 20px;
+    }
+
+    footer {
+        width: 100%;
+        height: 187vh;
+    }
+
+}

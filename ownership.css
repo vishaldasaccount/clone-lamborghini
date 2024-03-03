@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:active{
+    padding: 6px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+}
+
+.navleft {
+    width: 50%;
+    height: 100px;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navleft .logo img {
+    width: 63px;
+    padding: 0px 45px 0 63px;
+    
+}
+
+.navleft ul {
+    display: flex;
+
+}
+
+.navleft ul li {
+    list-style: none;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navleft ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navleft ul li a:hover {
+    font-weight: bolder;
+}
+
+
+.navright {
+    width: 50%;
+    height: 100px;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navright .chat img {
+    width: 28px;
+    cursor: pointer;
+    padding: 0 30px 0 0;
+}
+
+.navright .chat img:hover {
+    width: 30px;
+}
+
+.navright .search img {
+    width: 28px;
+    cursor: pointer;
+    padding: 0 130px 0 0;
+}
+
+.navright .search img:hover {
+    width: 30px;
+}
+
+.container {
+    width: 100%;
+    height: 87vh;
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+
+}
+
+
+.container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+
+}
+
+#display {
+    font-size: 30px;
+}
+
+.subcontainer {
+    width: 80%;
+    color: white;
+    margin: auto; 
+}
+
+.hidden-char {
+    font-family: 'Poppins', sans-serif;
+    opacity: 0;
+    transition: opacity 1s;
+
+}
+
+
+.hfont {
+    font-size: 80px;
+    font-family: 'Roboto', sans-serif;
+    animation: margin 1s;
+
+}
+
+@keyframes margin {
+    from {
+        margin-left: -250px;
+    }
+
+    to {
+        margin-left: 0px;
+    }
+}
+
+.container2{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+}
+
+.container2 img{
+    width: 70%;
+    height: 100%;
+}
+
+.container2 .text{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container2 .text h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+
+.container2 .text h4{
+    font-family: 'Open sans', sans-serif;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.container3{
+    width: 100%;
+    height: 130vh;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.container3 img{
+    width: 100%;
+    position: absolute;
+}
+
+.container3 .text{
+    width: 80%;
+    height: 30%;
+    z-index: 1;
+}
+
+.container3 .text h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+}
+
+.container3 .text h4{
+    font-family: 'Open sans', sans-serif;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.container3 .text2{
+    width: 80%;
+    height: 70%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin-left: 150px;
+    
+}
+
+.container3 .text2 h2{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px 0;
+    margin-right: 250px;
+}
+
+.container3 .text2 h4{
+    font-family: 'Open sans', sans-serif;
+    padding-bottom: 40px;
+    line-height: 30px;
+}
+
+.container4{
+    width: 100%;
+    height: 85vh;
+}
+
+.container4 img{
+    width: 100%;
+    height: 100%;
+}
+
+.container5{
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    margin-top: 50px;
+}
+
+.container5 .image{
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+
+figure{
+    overflow: hidden;
+}
+
+.container5 .image img{
+    display: block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;    
+}
+
+.container5 .image #zoom-in img{
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.container5 .image #zoom-in:hover img{
+    transform: scale(1.2);
+}
+
+.container5 .subtext{
+    width: 100%;
+    display: flex;
+    position: absolute;
+
+}
+
+.container5 .subtext .text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+.container5 .subtext .text h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 50px 0 0 50px;
+}
+
+.container5 .subtext .text h1{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 0 0 50px;
+}
+
+footer {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.subfooter2 {
+    width: 100%;
+    height: 100%;
+    background-color: #181818;
+    color: rgb(230, 229, 229);
+}
+
+.textf{
+    display: flex;
+    justify-content: space-between;
+}
+
+.textf h4{
+    padding: 40px 0 0 60px;
+    word-spacing: 20px;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fimg{
+    display: flex;
+    padding: 40px 60px 0 0;
+}
+
+.fimg img{
+    width: 30px;
+    height: 30px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.fimg img:hover{
+    width: 32px;
+    height: 32px;
+}
+
+.subfooter2 h5{
+    padding: 31px 0 0 60px;
+    line-height: 30px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    
+}

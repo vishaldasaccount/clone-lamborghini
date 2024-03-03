@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+#OpenSliderMenu {
+    opacity: 0;
+    position: absolute;
+}
+
+
+.siderbarMenu {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 250px;
+    margin-top: 100px;
+    background-color: #181818;
+    transform: translateX(250px);
+    transition: transform 250ms ease-in-out;
+    z-index: 21;
+
+}
+
+#OpenSliderMenu:checked~.siderbarMenu {
+    transform: translateX(0px);
+
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.10);
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+}
+
+.menu li a:hover {
+    font-weight: bolder;
+}
+
+.SidebarIconToggle {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    z-index: 20;
+    top: 40px;
+    right: 63px;
+    cursor: pointer;
+
+}
+
+.SidebarIconToggle:hover {
+    width: 28px;
+    height: 28px;
+
+}
+
+.spiner {
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s;
+}
+
+.spiner.middle,
+.spiner.bottom {
+    margin-top: 3px;
+
+}
+
+#OpenSliderMenu:checked~.SidebarIconToggle>.spiner.middle {
+    opacity: 0;
+}
+
+#OpenSliderMenu:checked~.SidebarIconToggle>.spiner.top {
+    transform: rotate(135deg);
+    margin-top: 8px;
+}
+
+#OpenSliderMenu:checked~.SidebarIconToggle>.spiner.bottom {
+    transform: rotate(-135deg);
+    margin-top: -9px;
+}
+

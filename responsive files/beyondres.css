@@ -1,0 +1,291 @@
+@media screen and (max-width:1402px) {
+    .navleft ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navleft ul li {
+        list-style: none;
+        font-size: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:1200px) and (min-width:992px) {
+    .container3 .card .text h2 {
+        font-size: 23px;
+    }
+
+    footer {
+        height: 75vh;
+    }
+
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .navleft {
+        width: 50%;
+        height: 80px;
+    }
+
+    .navleft .logo img {
+        width: 51px;
+        padding: 0px 0px 0 42px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 80px;
+    }
+
+    .SidebarIconToggle {
+        top: 31px;
+        right: 36px;
+    }
+
+    .navright .search img {
+        padding: 0 96px 0 0;
+    }
+
+    .siderbarMenu{
+        margin-top: 80px;
+    }
+
+    .container3 .card .text h2 {
+        font-size: 25px;
+        padding-top: 1px;
+    }
+
+    footer {
+        width: 100%;
+        height: 85vh;
+    }
+
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+    .navleft {
+        width: 50%;
+        height: 70px;
+    }
+
+    .navleft .logo img {
+        width: 49px;
+        padding: 0px 0px 0 35px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 70px;
+    }
+
+    .SidebarIconToggle {
+        top: 27px;
+        right: 32px;
+    }
+
+    .navright .search img {
+        padding: 0 88px 0 0;
+    }
+
+    .siderbarMenu{
+        margin-top: 70px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 67vh;
+    }
+
+    .container3 .card {
+        width: 80%;
+        height: 59vh;
+        flex-direction: column;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 240vh;
+    }
+
+    .container3 .card img {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+    }
+
+    .container3 .card .text h6 {
+        font-size: 16px;
+        font-family: 'Montserrat', sans-serif;
+        margin-top: 30px;
+    }
+
+    .container3 .card {
+        width: 80%;
+        height: 80vh;
+    }
+
+    .container4 .subcontainer4 {
+        flex-direction: column;
+    }
+
+    .container4 .card {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 225vh;
+    }
+
+    footer {
+        width: 100%;
+        height: 121vh;
+    }
+
+    .container4 .card img {
+        width: 100%;
+        height: 50%;
+    }
+
+}
+
+@media screen and (max-width:576px) and (min-width:0px) {
+    .navleft {
+        width: 50%;
+        height: 60px;
+    }
+
+    .navleft .logo img {
+        width: 43px;
+        padding: 0px 0px 0 29px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 60px;
+    }
+
+    .SidebarIconToggle {
+        top: 20px;
+        right: 26px;
+    }
+
+    .navright .search img {
+        width: 28px;
+        cursor: pointer;
+        padding: 0 81px 0 0;
+    }
+
+    .siderbarMenu{
+        margin-top: 60px;
+    }
+
+    #display {
+        font-size: 31px;
+    }
+
+    .hfont {
+        font-size: 71px;
+    }
+
+    .container2 {
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        position: relative;
+    }
+
+    .container2 img {
+        width: 100%;
+    }
+
+    .container2 .text {
+        width: 100%;
+        height: 100%;
+        margin: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container3 .card {
+        width: 80%;
+        height: 77vh;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+
+    .container3 .card img {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+    }
+
+    .container3 {
+        width: 100%;
+        height: 170vh;
+    }
+
+    .container3 .card .text h2 {
+        font-size: 20px;
+    }
+
+    .container4 .card {
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0px;
+        position: relative;
+    }
+
+    .container4 .subcontainer4 {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container4 {
+        width: 100%;
+        height: 225vh;
+    }
+
+    .container4 .card .text h2 {
+        font-size: 23px;
+    }
+
+    footer {
+        width: 100%;
+        height: 150vh;
+    }
+
+    .subfooter2 h5 {
+        padding: 31px 18px 0 24px;
+    }
+
+    .textf h4 {
+        padding: 40px 0px 0 24px;
+    }
+
+    .fimg {
+        display: flex;
+        padding: 40px 12px 0 0;
+    }
+
+    .container2 .text {
+        width: 94%;
+    }
+ 
+}
+

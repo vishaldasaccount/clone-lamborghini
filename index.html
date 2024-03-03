@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborghini Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="toggle-menu.css">
+    <link rel="stylesheet" href="responsive files/responsive.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="navleft">
+                <div class="logo">
+                        <img src="images/logo.png" alt="">
+                </div>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="models.html">MODELS</a></li>
+                    <li><a href="beyond.html">BEYOND</a></li>
+                    <li><a href="ownership.html">OWNERSHIP</a></li>
+                    <li><a href="motorsport.html">MOTORSPORT</a></li>
+                </ul>
+            </div>
+            <div class="navright">
+                <div class="chat">
+                    <img src="images/chat.png" alt="">
+                </div>
+                <div class="search">
+                    <img src="images/search.png" alt="">
+                </div>
+                <label for="OpenSliderMenu" class="SidebarIconToggle">
+                    <div class="spiner top"></div>
+                    <div class="spiner middle"></div>
+                    <div class="spiner bottom"></div>
+                </label>
+            </div>
+        </nav>
+    </header>
+
+    <input type="checkbox" id="OpenSliderMenu">
+
+    <div class="siderbarMenu">
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="models.html">MODELS</a></li>
+            <li><a href="beyond.html">BEYOND</a></li>
+            <li><a href="ownership.html">OWNERSHIP</a></li>
+            <li><a href="motorsport.html">MOTORSPORT</a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="container">
+            <video autoplay="" muted="" loop="" id="videoBackground">
+                <source src="videos/lamborghini video.mp4" type="video/mp4">
+                <source src="mov_bbb.ogg" type="video/ogg">
+            </video>
+            <div class="subcontainer">
+                <h2 id="display">
+                </h2>
+                <h1 class="hfont">
+                    DIREZIONE <br>
+                    COR TAURI
+                </h1>
+            </div>
+        </div>
+        <div class="container2">
+            <div class="slider">
+                <img src="images/1.jpg" class="slide" alt="">
+                <img src="images/2.jpg" class="slide" alt="">
+                <img src="images/3.jpg" class="slide" alt="">
+            </div>
+            <div class="content">
+                <h3 class="mfont">MODEL</h3>
+                <div class="btn">
+                    <button onclick="goPrev()">
+                        prev
+                    </button>
+                    <button onclick="goNext()">
+                        next
+                    </button>
+                </div>
+                <h2>REVUELTO</h2>
+                <h2>HURACAN</h2>
+                <h2>URUS</h2>
+            </div>
+        </div>
+        <div class="container3">
+            <img src="images/revuelto_home.jpg" alt="">
+            <div class="subcontainer3">
+                <h3 class="confifont">CONFIGURATOR</h3>
+                <h2>CREATE YOUR<br>
+                    REVUELTO</h2>
+            </div>
+        </div>
+        <div class="container4">
+            <img src="images/533702.jpg" alt="">
+            <div class="subcontainer4">
+                <h3 class="dealfont">DEALER LOCATOR</h3>
+                <h2>
+                    FIND YOUR<br>
+                    COUNTRY DEALER</h2>
+            </div>
+        </div>
+        <div class="container5">
+            <div class="subcontainer5">
+                <h2>NEWS</h2>
+                <h1>LAMBORGHINI WORLD</h1>
+                <img src="images/cover.jpg" alt="">
+                <h3>2 FEBRUARY 2024</h3>
+                <h5>EVENTS CORPORATE</h5>
+                <div class="automobile">
+                    <h2>AUTOMOBILI LAMBORGHINI AND DUCATI X PAOLO TROILO</h2>
+                    <div class="button">
+                        READ MORE
+                    </div>
+                </div>
+                <h6>Automobili Lamborghini once again demonstrates its special bond with the art world, coming together
+                    with Ducati<br>to celebrate a pair of unique works by Italian artist Paolo Troilo dedicated to the
+                    two giants from the Motor Valley.</h6>
+            </div>
+        </div>
+        <div class="container6">
+            <div class="card">
+                <img src="images/angles_ep1_cover_1.jpg" alt="">
+                <div class="text">
+                    <h6>8 FABRUARY 2024</h6>
+                    <h2>ANGLES PODCAST #1: ANTON<br>
+                        CORBIJN TURNS</h2>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/cover_d.jpg" alt="">
+                <div class="text">
+                    <h6>6 FEBRUARY 2024</h6>
+                    <h2>INTERVIEW AGAINST THE CLOCK<br>
+                        IN THE PAINTSHOP</h2>
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="subfooter1">
+            <button>SEE ALL</button>
+        </div>
+        <div class="subfooter2">
+            <div class="textf">
+                <h4>COMPANY FINANCIALS CAREERS CONTACT US SUSTAINABILITY MEDIA CENTER PRIVACY & LEGAL<br>
+                    COOKIE SETTINGS SITEMAP NEWSLETTER ACCESSIBILITY</h4>
+                <div class="fimg">
+                    <img src="images/insta logo.png" alt="">
+                    <img src="images/facebook logo.png" alt="">
+                    <img src="images/yt logo.png" alt="">
+                </div>
+            </div>
+            <h5>* The consumption and emissions values in the website refer to your geographical IP. This value might be
+                unrealistic if you navigate using VPN or if the position of your Internet provider is imprecise.<br>
+                &nbsp;&nbsp;&nbsp;If you believe you are incorrectly geolocalized, contact your dealer to get valid
+                consumption and emissions information in your area.</h5>
+            <h5>Copyright © 2024 Automobili Lamborghini S.p.A. a sole shareholder company part of Audi Group.<br>
+                All rights reserved. VAT no. IT 00591801204<br>
+
+                WARNING ABOUT ILLEGAL OFFERS OF ALLEGED SHARES OF AUTOMOBILI LAMBORGHINI S.P.A.<br>
+
+                Automobili Lamborghini S.p.A. got the notice that several third parties across different countries are
+                allegedly offering shares in Automobili Lamborghini S.p.A. These offers are unlawful and originate
+                neither from Volkswagen Aktiengesellschaft nor from any of its subsidiaries.</h5>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
