@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a:active{
+    padding: 6px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: transparent;
+
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav {
+    display: inline-flex;
+    width: 100%;
+}
+
+.navleft {
+    width: 50%;
+    height: 100px;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.navleft .logo img {
+    width: 170px;
+    padding: 0px 45px 0 63px;
+    
+}
+
+.navleft ul {
+    display: flex;
+
+}
+
+.navleft ul li {
+    list-style: none;
+    padding: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navleft ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.navleft ul li a:hover {
+    font-weight: bolder;
+}
+
+
+.navright {
+    width: 50%;
+    height: 100px;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navright .chat img {
+    width: 65px;
+    cursor: pointer;
+    padding: 0 30px 0 0;
+}
+
+.navright .chat img:hover {
+    width: 68px;
+}
+
+.navright .search img {
+    width: 165px;
+    cursor: pointer;
+    padding: 0 130px 0 0;
+}
+
+.navright .search img:hover {
+    width: 168px;
+}
+
+.company{
+    font-family: 'Roboto', sans-serif;
+}
+.insta{
+    width: 40px;
+    margin: 10px 15px;
+}
+.insta:hover{
+    width: 43px;
+}
+.area{
+    margin: 30px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.c1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+.c2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+
+.img1 {
+    width: 100%;
+    height: 90vh;
+}
+
+.forpress{
+    text-align: end;
+    margin-bottom: 80px;
+}
+#videoBackground {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.production{
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+.design{
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.automotive{
+    font-family: "Montserrat", sans-serif;
+    line-height: 35px;
+    padding: 100px;
+}
+.speed{
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    margin: 60px 0;
+}
+.market{
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    margin: 40px 0;
+}
+.Spain{
+    font-family: "Montserrat", sans-serif;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+  }
+  
+  .slides img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  .related{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+
+.desk{
+    width: 100%;
+}
+.april{
+    margin: 20px 0;
+}
+.raquet{
+    font-family: 'Roboto', sans-serif;
+}
+.raquet2{
+    margin-bottom: 38px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.white-button {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    padding: 13px 28px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.white-button:hover {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width:768px) and (min-width:576px) {
+    .automotive {
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:576px) and (min-width:0px) {
+    .automotive {
+        padding: 10px;
+    }
+    .c2{
+        font-size: 2rem;
+    }
+    .c1{
+        font-size: 2rem;
+    }
+    
+}

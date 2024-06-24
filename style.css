@@ -215,6 +215,7 @@ nav {
     height: 100%;
     transition: 1s;
     position: absolute;
+    object-fit: cover;
 }
 
 .container3 {
@@ -230,6 +231,7 @@ nav {
     width: 100%;
     height: 100%;
     position: absolute;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -264,6 +266,7 @@ nav {
     width: 100%;
     height: 100%;
     position: absolute;
+    object-fit: cover;
     z-index: -1;
 }
 
@@ -319,6 +322,7 @@ nav {
     width: 100%;
     height: 80vh;
     padding-bottom: 30px;
+    object-fit: cover;
 }
 
 .subcontainer5 h3 {
@@ -343,6 +347,9 @@ nav {
     font-family: 'Roboto', sans-serif;
 
 }
+.href{
+    text-decoration: none;
+}
 
 .automobile .button {
     width: 120px;
@@ -355,7 +362,6 @@ nav {
     color: black;
     cursor: pointer;
     transition: 0.5s;
-
 }
 
 .automobile .button:hover {
@@ -390,6 +396,7 @@ nav {
     width: 45%;
     height: 100%;
     margin-right: 50px;
+    object-fit: cover;
 }
 
 .container6 .card .text h6{

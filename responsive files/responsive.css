@@ -101,7 +101,7 @@
         height: 20%;
     }
 
-    .subfooter2{
+    .subfooter2 {
         height: 80%;
     }
 }
@@ -131,7 +131,7 @@
         padding: 0 96px 0 0;
     }
 
-    .siderbarMenu{
+    .siderbarMenu {
         margin-top: 80px;
     }
 
@@ -278,7 +278,7 @@
         padding: 0 88px 0 0;
     }
 
-    .siderbarMenu{
+    .siderbarMenu {
         margin-top: 70px;
     }
 
@@ -408,41 +408,41 @@
 
     .container6 .card .text h6 {
         margin-top: 30px;
-      }
+    }
 
-      .container6 .card .text h2 {
+    .container6 .card .text h2 {
         font-size: 31px;
-      }
+    }
 
-      .container6 .card .text button {
+    .container6 .card .text button {
         float: right;
-      }
+    }
 
-      .subfooter1 {
+    .subfooter1 {
         height: 20%;
-      }
-      
-      .subfooter2 {
-        height: 80%;
-      }
+    }
 
-      .textf h4 {
+    .subfooter2 {
+        height: 80%;
+    }
+
+    .textf h4 {
         padding: 27px 0 0 60px;
         word-spacing: 13px;
         line-height: 27px;
-      }
+    }
 
-      .subfooter2 h5 {
+    .subfooter2 h5 {
         padding: 12px 0 0 60px;
         line-height: 26px;
         font-family: 'Open Sans', sans-serif;
         font-size: 10px;
-      }
+    }
 
-      .fimg {
+    .fimg {
         display: flex;
         padding: 40px 24px 0 0;
-      }
+    }
 
 }
 
@@ -473,7 +473,7 @@
         padding: 0 81px 0 0;
     }
 
-    .siderbarMenu{
+    .siderbarMenu {
         margin-top: 60px;
     }
 
@@ -487,7 +487,7 @@
     }
 
     .hfont {
-        font-size: 58px;
+        font-size: 50px;
     }
 
     .mfont {
@@ -511,7 +511,7 @@
 
     .content h2 {
         color: white;
-        font-size: 53px;
+        font-size: 40px;
     }
 
     .container2 {
@@ -522,6 +522,10 @@
     .container3 {
         width: 100%;
         height: 66vh;
+    }
+
+    .container3 img {
+        object-fit: cover;
     }
 
     .confifont {
@@ -551,6 +555,10 @@
         height: 66vh;
     }
 
+    .container4 img {
+        object-fit: cover;
+    }
+
     .dealfont {
         font-size: 25px;
     }
@@ -560,13 +568,14 @@
         line-height: 39px;
     }
 
+
     .subcontainer5 h2 {
         font-size: 21px;
         padding: 55px 0 20px 0;
     }
 
     .subcontainer5 h1 {
-        font-size: 44px;
+        font-size: 40px;
     }
 
     .subcontainer5 img {
@@ -591,7 +600,7 @@
 
     .container5 {
         width: 100%;
-        height: 101vh;
+        height: 127vh;
     }
 
     .container6 .card {
@@ -602,16 +611,17 @@
 
     .container6 .card {
         width: 80%;
-        height: 55vh;
+        height: 35%;
     }
 
     .container6 {
         width: 100%;
-        height: 119vh;
+        height: 160%;
     }
 
     .container6 .card img {
         width: 100%;
+        height: 183px;
     }
 
     .container6 .card .text h6 {
@@ -620,15 +630,19 @@
         margin-top: 30px;
     }
 
+    .container6 .card .text h2 {
+        font-size: 25px;
+    }
+
     .container6 .card .text button {
         float: right;
     }
 
     .subfooter1 {
         width: 100%;
-        height: 20%;
+        height: 13%;
     }
-    
+
     .subfooter2 {
         width: 100%;
         height: 80%;
@@ -642,17 +656,20 @@
     .fimg {
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin: 15px;
     }
 
     .textf h4 {
-        padding: 16px 0 0 22px;
+        padding: 16px;
         word-spacing: 20px;
         line-height: 32px;
-        font-size: 17px;
+        font-size: 15px;
+        text-align: center;
     }
 
     .subfooter2 h5 {
-        padding: 23px 0 0 31px;
+        padding: 27px;
         line-height: 30px;
         font-family: 'Open Sans', sans-serif;
         font-size: 11px;
@@ -660,7 +677,7 @@
 
     footer {
         width: 100%;
-        height: 114vh;
+        height: 158vh;
     }
 
 

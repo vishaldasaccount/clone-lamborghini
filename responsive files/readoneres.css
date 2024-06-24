@@ -1,0 +1,107 @@
+@media screen and (max-width:1402px) {
+    .navleft ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navleft ul li {
+        list-style: none;
+        font-size: 0px;
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width:992px) and (min-width:768px) {
+    .navleft {
+        width: 50%;
+        height: 80px;
+    }
+
+    .navleft .logo img {
+        width: 100px;
+        padding: 0px 0px 0 42px;
+    }
+
+    .navright {
+        width: 50%;
+        height: 80px;
+    }
+
+    .SidebarIconToggle {
+        top: 31px;
+        right: 36px;
+    }
+
+    .navright .search img {
+        width: 135px;
+        padding: 0 96px 0 0;
+    }
+
+    .siderbarMenu{
+        margin-top: 80px;
+    }
+}
+
+
+    @media screen and (max-width:768px) and (min-width:576px) {
+        .navleft {
+            width: 50%;
+            height: 70px;
+        }
+    
+        .navleft .logo img {
+            width: 80px;
+            padding: 0px 0px 0 35px;
+        }
+    
+        .navright {
+            width: 50%;
+            height: 70px;
+        }
+    
+        .SidebarIconToggle {
+            top: 27px;
+            right: 32px;
+        }
+    
+        .navright .search img {
+            width: 120px;
+            padding: 0 88px 0 0;
+        }
+    
+        .siderbarMenu{
+            margin-top: 70px;
+        }
+    }
+
+        @media screen and (max-width:576px) and (min-width:0px) {
+            .navleft {
+                width: 50%;
+                height: 60px;
+            }
+        
+            .navleft .logo img {
+                width: 70px;
+                padding: 0px 0px 0 29px;
+            }
+        
+            .navright {
+                width: 50%;
+                height: 60px;
+            }
+        
+            .SidebarIconToggle {
+                top: 20px;
+                right: 26px;
+            }
+        
+            .navright .search img {
+                width: 115px;
+                cursor: pointer;
+                padding: 0 81px 0 0;
+            }
+        
+            .siderbarMenu{
+                margin-top: 60px;
+            }
+        }
